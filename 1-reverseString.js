@@ -4,3 +4,17 @@
 . Print s on new line. If no exception was thrown, then this should be the reversed string, if an
 exception was thrown, this should be the original string. */
 'use strict';
+function reverseString(s) {
+  if (typeof s === 'string') {
+    let reversed = s.split('').reverse().join('');
+    console.log(reversed);
+  } else {
+    throw 'Try only string values';
+  }
+}
+
+try {
+  reverseString('asdf');
+} catch (e) {
+  console.log(e);
+}
