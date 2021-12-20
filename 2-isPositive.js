@@ -11,6 +11,8 @@ function isPositive(a) {
       throw new Error('Zero Error');
     } else if (a < 0) {
       throw new Error('Negative Error');
+    } else {
+      throw new Error('Please insert only a number!');
     }
   } catch (e) {
     console.log(e);
