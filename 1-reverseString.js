@@ -5,16 +5,18 @@
 exception was thrown, this should be the original string. */
 'use strict';
 function reverseString(s) {
-  if (typeof s === 'string') {
-    let reversed = s.split('').reverse().join('');
-    console.log(reversed);
-  } else {
-    throw 'Try only string values';
+  try {
+    if (typeof s === 'string') {
+      let reversed = s.split('').reverse().join('');
+      console.log(reversed);
+    } else {
+      throw 'Try only string values';
+    }
+  } catch (e) {
+    console.log(e);
+    console.log(s);
   }
 }
 
-try {
-  reverseString('asdf');
-} catch (e) {
-  console.log(e);
-}
+reverseString('asdf'); // fdsa
+reverseString(1234); // Try only string values , 1234
