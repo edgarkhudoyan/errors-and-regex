@@ -22,3 +22,7 @@
 Links for solutions:
 
 - Solution 1 - [reserveString](https://github.com/edgarkhudoyan/errors-and-regex/blob/main/1-reverseString.js)
+- Solution 2 - [isPositive](https://github.com/edgarkhudoyan/errors-and-regex/blob/main/2-isPositive.js)
+- Solution 3 - [convert](https://github.com/edgarkhudoyan/errors-and-regex/blob/main/3-convert.js)
+- Solution 4 - [gradeLabs](https://github.com/edgarkhudoyan/errors-and-regex/blob/main/4-gradeLabs.js)
+- Solution 5 - [myRegExp](https://github.com/edgarkhudoyan/errors-and-regex/blob/main/myRegExp.js)
