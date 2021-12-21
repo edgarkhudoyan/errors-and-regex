@@ -12,3 +12,41 @@ Add a try/catch block inside of gradeLabs to catch an exception if the runLab pr
 If the exception is thrown, the result should be set to the text "Error thrown".
 */
 'use strict';
+let studentLabs2 = [
+  {
+    student: 'Blake',
+    myCode: function (num) {
+      return Math.pow(num, num);
+    },
+  },
+  {
+    student: 'Jessica',
+    runLab: function (num) {
+      return Math.pow(num, num);
+    },
+  },
+  {
+    student: 'Mya',
+    runLab: function (num) {
+      return num * num;
+    },
+  },
+];
+
+function gradeLabs(arr) {
+  for (let i = 0; i < arr.length; i++) {
+    try {
+      if (arr[i].runLab) {
+        console.log('All fine!');
+      } else {
+        throw new Error('No function sorry!');
+      }
+    } catch (err) {
+      console.log('Error detected! ' + err.message);
+    }
+
+    return arr[i];
+  }
+}
+
+gradeLabs(studentLabs2);
