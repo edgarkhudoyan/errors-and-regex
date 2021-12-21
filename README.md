@@ -16,3 +16,9 @@
 - Solve problems
 - Learn Regular Expressions (RegEx)
 - Solve RegEx problems
+
+## Solutions
+
+Links for solutions:
+
+- Solution 1 - [reserveString](https://github.com/edgarkhudoyan/errors-and-regex/blob/main/1-reverseString.js)
